@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
 const Main = () => (
   <ImageBackground
     source={{
-      uri: 'https://s3-sa-east-1.amazonaws.com/rocketseat-cdn/background.png',
+      uri: "https://s3-sa-east-1.amazonaws.com/rocketseat-cdn/background.png",
     }}
     style={styles.container}
     resizeMode="cover"
@@ -44,7 +44,7 @@ const Main = () => (
     <StatusBar barStyle="light-content" backgroundColor="#7159c1" />
     <Image
       source={{
-        uri: 'https://s3-sa-east-1.amazonaws.com/rocketseat-cdn/rocketseat_logo.png',
+        uri: "https://s3-sa-east-1.amazonaws.com/rocketseat-cdn/rocketseat_logo.png",
       }}
       style={styles.logo}
       resizeMode="contain"
