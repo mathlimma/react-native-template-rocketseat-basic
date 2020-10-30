@@ -128,7 +128,7 @@ Serão explicados os arquivos e diretórios na seção de [Edição](#edição).
 react-native init AwesomeExample --template rocketseat-basic
 ```
 
-2. Depois do projeto criado você pode deletar o arquivo `App.js` da raiz, pois o arquivo `index.js` agora aponta para a pasta **src**.
+2. Depois do projeto criado você pode deletar o arquivo `App.js` da raiz, pois, o arquivo `index.js` agora aponta para a pasta **src**.
 
 Com isso o projeto será criado com todas as dependências do template devidamente instaladas e linkadas, tal como os arquivos de configuração que são copiados para o projeto.
 
@@ -178,7 +178,7 @@ Nesta seção haverão instruções caso você queira editar o template, explica
 
     - **ReactotronConfig.js** - Arquivo contendo a configuração do Reactotron para ser usado na aplicação;
 
-  - **images** - Diretório para armazenar imagens em geral que possam ser utilizadas na aplicação, esse diretório pode ser renomeado para `assets` e dentro de `assets` criar um novo diretório para guardar somente as imagens, assim é possível ter um diretório para guardar todo tipo de arquivo, e não apenas imagens;
+  - **images** - Diretório para armazenar imagens em geral, que possam ser utilizadas na aplicação, esse diretório pode ser renomeado para `assets` e dentro de `assets` criar um novo diretório para guardar somente as imagens, assim é possível ter um diretório para guardar todo tipo de arquivo, e não apenas imagens;
 
   - **pages** - Diretório onde ficam as páginas (telas) da aplicação, como forma de padronização e boas práticas toda página fica dentro de um diretório com seu nome;
 
@@ -225,7 +225,7 @@ npm login
 3. Basta abrir o arquivo `package.json` e modificar as informações de acordo com o seu template, mas as informações mais importantes são duas, o `name` e o `version`, que são os únicos que tem restrições, seguem abaixo as restrições:
 
    1. O `name` sempre deve começar com o prefixo `react-native-template-` seguido do nome do seu template;
-   2. O template deve ser publicado em uma conta pessoal, pois quando publicado em uma **Organization** é acrescentado o prefixo `@<nome_da_organization>` no nome do pacote;
+   2. O template deve ser publicado em uma conta pessoal, pois, quando publicado em uma **Organization** é acrescentado o prefixo `@<nome_da_organization>` no nome do pacote;
    3. O `name` deve ser único, não podendo ser igual ao de um template já publicado;
    4. A `version` deve ser atualizada a cada publicação, se o template está na versão **0.0.1** e é preciso publicar uma atualização no mesmo, a `version` deve ser diferente e superior a versão atual, por exemplo, **0.0.2**;
 
