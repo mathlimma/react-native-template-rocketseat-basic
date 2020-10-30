@@ -124,7 +124,7 @@ Serão explicados os arquivos e diretórios na seção de [Edição](#edição).
 
 1. Para instalar e utilizar esse template o processo é bem simples, basta criar um projeto novo utilizando o comando:
 
-```sh
+```bash
 react-native init AwesomeExample --template rocketseat-basic
 ```
 
@@ -218,7 +218,7 @@ Para publicar um template como esse, o processo é bastante simples e rápido.
 
 2. Com a conta criada execute o comando abaixo e insira suas credenciais;
 
-```sh
+```bash
 npm login
 ```
 
